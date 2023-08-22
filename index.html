@@ -51,7 +51,26 @@
 			color: rgb(136, 136, 136);
 			
 		}
-		
+		.row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .col-md-3, .col-md-9 {
+            flex: 1;
+            min-width: 330px; /* Tamaño mínimo para las columnas */
+            padding: 0px;
+        }
+
+        /* Utilizar unidades relativas */
+        h1 {
+            font-size: 2em; /* Ejemplo de tamaño relativo */
+        }
+
+        p {
+            font-size: 1em; /* Ejemplo de tamaño relativo */
+        }
 
 		
 	</style>
