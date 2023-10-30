@@ -123,21 +123,21 @@ function Click_Image_Button_Option(image_id) {
         case "ELEMENTOARQUITECTÓNICO":
             ELEMENTOARQUITECTÓNICO_Img = true;
             ChangeSelloImage('SELLO_ELEMENTOARQUITECTÓNICO');
-            ChangeDescripcion('MÉNSULA DE CORNISA');
+            ChangeDescripcion('MODILLÓN');
             $("#ELEMENTOARQUITECTÓNICODescripcion").css('display', 'block');
             $("#MapsFrame").attr("src", "https://speckle.xyz/embed?stream=48a586271a&commit=3116b6eb2d&c=%5B7.60127%2C12.27264%2C3.00654%2C6.70676%2C12.18435%2C3.00654%2C0%2C1%5D");
             break;
         case "DANZA":
             DANZA_Img = true;
             ChangeSelloImage('SELLO_DANZA');
-            ChangeDescripcion('PUERTA Y ESTILOBATO');
+            ChangeDescripcion('PUERTAS');
             $("#DanzaDescripcion").css('display', 'block');
             $("#MapsFrame").attr("src", "https://speckle.xyz/embed?stream=8c1924f775&commit=d86837cfb9&c=%5B3.87637%2C17.01852%2C1.6%2C1.37155%2C11.67793%2C1.6%2C0%2C1%5D&autoload=true&hidecontrols=true&hidesidebar=true");
             break;
         case "MEMORIA":
             MEMORIA_Img = true;
             ChangeSelloImage('SELLO_MEMORIA');
-            ChangeDescripcion('MÉNSULAS DEL BALCÓN');
+            ChangeDescripcion('MÉNSULAS');
             $("#MemoriaDescripcion").css('display', 'block');
             $("#ContainerDesctipcion").css('height', '36vh');
             $("#MapsFrame").attr("src", "https://speckle.xyz/embed?stream=17cb0a381d&commit=c6540a61d2&c=%5B8.15116%2C12.56829%2C2.85725%2C6.60458%2C12.26803%2C2.83623%2C0%2C1%5D&autoload=true&hidecontrols=true&hidesidebar=true");
